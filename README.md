@@ -1,18 +1,55 @@
-# abyssinia_learn
+# Abyssinia Learn
 
-A new Flutter project.
+A mini e-learning mobile application built with Flutter for the Abyssinia Software Technology PLC practical assignment. Users can sign up, browse courses, open chapters and lessons, stream videos, and download them for offline playback.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sign-up, login and logout with local storage and mock user data
+- Course list with thumbnails, descriptions, level, instructor and chapter counts
+- Chapters and lessons loaded from a local JSON file
+- In-app video playback with playback controls
+- Video download with live progress and status
+- Offline playback of downloaded videos
+- Downloaded-lessons records kept in local storage
+- Loading, empty and error states across screens
+- Streaming-only lesson that cannot be downloaded, to demonstrate unsupported downloads
 
-A few resources to get you started if this is your first Flutter project:
+## Test Credentials
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Name | Email | Password |
+|------|-------|----------|
+| Demo Student | demo@abyssinia.com | Demo@1234 |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# abyssinia_learn
+You can also create a new account from the Sign-Up screen.
+
+## Requirements
+
+- Flutter SDK 3.x (stable channel)
+- Dart SDK bundled with Flutter
+- Android SDK with an emulator or a physical Android device
+- Internet connection for first-time dependency download, video streaming and downloads
+
+## Setup
+
+```bash
+git clone <repository-url>
+cd abyssinia_learn
+flutter pub get
+flutter run
+```
+
+## Build the APK
+
+```bash
+flutter build apk --release --split-per-abi
+```
+
+Output files are in `build/app/outputs/flutter-apk/`. Install `app-arm64-v8a-release.apk` on most modern Android phones.
+
+For a single APK that runs on every device:
+
+```bash
+flutter build apk --release
+```
+
+## Project Structure
