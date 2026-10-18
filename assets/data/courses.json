@@ -1,0 +1,292 @@
+{
+  "courses": [
+    {
+      "id": "flutter",
+      "title": "Flutter App Development",
+      "description": "Build beautiful cross-platform mobile apps from scratch. Learn widgets, layouts, navigation and state management with hands-on lessons.",
+      "category": "Development",
+      "level": "Beginner",
+      "instructor": "Dawit Alemu",
+      "thumbnail": {
+        "art": "code",
+        "colors": [
+          "#00AD2E",
+          "#00701F"
+        ]
+      },
+      "chapters": [
+        {
+          "id": "flutter-c1",
+          "title": "Getting Started",
+          "lessons": [
+            {
+              "id": "flutter-l1",
+              "title": "Welcome to Flutter",
+              "description": "Tour the framework, tooling and the project structure you will use all course long.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "flutter-l2",
+              "title": "Setting Up Your Environment",
+              "description": "Install the SDK, configure an emulator and run your first app.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "flutter-c2",
+          "title": "Building Interfaces",
+          "lessons": [
+            {
+              "id": "flutter-l3",
+              "title": "Widgets and Layouts",
+              "description": "Compose rows, columns, stacks and lists into responsive screens.",
+              "durationSeconds": 60,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "flutter-l4",
+              "title": "Styling with Themes",
+              "description": "Create consistent typography, colors and reusable components.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "flutter-c3",
+          "title": "State and Data",
+          "lessons": [
+            {
+              "id": "flutter-l5",
+              "title": "Managing State",
+              "description": "Understand local and shared state and keep your UI in sync.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "flutter-l6",
+              "title": "Working with Local Storage",
+              "description": "Persist user data and settings directly on the device.",
+              "durationSeconds": 8,
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "downloadable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "UI/UX Design Essentials",
+      "description": "Learn the principles behind intuitive, delightful products. Cover research, wireframing, visual design and prototyping.",
+      "category": "Design",
+      "level": "Beginner",
+      "instructor": "Hanna Bekele",
+      "thumbnail": {
+        "art": "design",
+        "colors": [
+          "#14B8A6",
+          "#0B6E64"
+        ]
+      },
+      "chapters": [
+        {
+          "id": "design-c1",
+          "title": "Design Principles",
+          "lessons": [
+            {
+              "id": "design-l1",
+              "title": "Thinking Like a Designer",
+              "description": "Discover how great designers frame problems and make decisions.",
+              "durationSeconds": 7,
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "design-l2",
+              "title": "Color and Typography",
+              "description": "Pick palettes and typefaces that communicate clearly.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "design-c2",
+          "title": "Prototyping",
+          "lessons": [
+            {
+              "id": "design-l3",
+              "title": "Wireframing Basics",
+              "description": "Sketch structure before style with fast low-fidelity wireframes.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "design-l4",
+              "title": "Interactive Prototypes",
+              "description": "Turn static screens into clickable flows ready for testing.",
+              "durationSeconds": 60,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+              "downloadable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Python for Data Analysis",
+      "description": "Go from first script to real insights. Master Python fundamentals, then explore, clean and visualize data.",
+      "category": "Data",
+      "level": "Intermediate",
+      "instructor": "Yonas Girma",
+      "thumbnail": {
+        "art": "data",
+        "colors": [
+          "#22C55E",
+          "#0F7A36"
+        ]
+      },
+      "chapters": [
+        {
+          "id": "python-c1",
+          "title": "Python Basics",
+          "lessons": [
+            {
+              "id": "python-l1",
+              "title": "Variables and Types",
+              "description": "Store and transform information with Python's core data types.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "python-l2",
+              "title": "Control Flow",
+              "description": "Make decisions and repeat work using conditions and loops.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "python-c2",
+          "title": "Working with Data",
+          "lessons": [
+            {
+              "id": "python-l3",
+              "title": "Exploring Datasets",
+              "description": "Load tabular data and answer questions with a few lines of code.",
+              "durationSeconds": 8,
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "python-l4",
+              "title": "Cleaning and Visualizing",
+              "description": "Handle missing values and present findings with charts.",
+              "durationSeconds": 7,
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "python-c3",
+          "title": "Capstone Project",
+          "lessons": [
+            {
+              "id": "python-l5",
+              "title": "Project Walkthrough (Streaming)",
+              "description": "A long-form walkthrough available for streaming only.",
+              "durationSeconds": 596,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "downloadable": false
+            },
+            {
+              "id": "python-l6",
+              "title": "Project Wrap-Up",
+              "description": "Review your work and plan the next steps in your journey.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "downloadable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Digital Marketing Fundamentals",
+      "description": "Understand how brands grow online. Learn audiences, content strategy, social channels and campaign measurement.",
+      "category": "Business",
+      "level": "Beginner",
+      "instructor": "Mekdes Haile",
+      "thumbnail": {
+        "art": "marketing",
+        "colors": [
+          "#84CC16",
+          "#3F7A0A"
+        ]
+      },
+      "chapters": [
+        {
+          "id": "marketing-c1",
+          "title": "Marketing Foundations",
+          "lessons": [
+            {
+              "id": "marketing-l1",
+              "title": "Know Your Audience",
+              "description": "Build customer personas and map their journey.",
+              "durationSeconds": 60,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "marketing-l2",
+              "title": "Crafting Your Message",
+              "description": "Write value propositions that people remember.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+              "downloadable": true
+            }
+          ]
+        },
+        {
+          "id": "marketing-c2",
+          "title": "Growing on Social",
+          "lessons": [
+            {
+              "id": "marketing-l3",
+              "title": "Choosing the Right Channels",
+              "description": "Match platforms to goals, budgets and audiences.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+              "downloadable": true
+            },
+            {
+              "id": "marketing-l4",
+              "title": "Measuring Results",
+              "description": "Track the metrics that actually matter to your campaign.",
+              "durationSeconds": 15,
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "downloadable": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

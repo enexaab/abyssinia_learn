@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "u-1001",
+      "name": "Demo Student",
+      "email": "demo@abyssinia.com",
+      "passwordHash": "2ac4757802ddfa9540f285b04d7ba282b55f206b9a4700c11010ebc410cdb4ab"
+    },
+    {
+      "id": "u-1002",
+      "name": "Selam Tesfaye",
+      "email": "selam@abyssinia.com",
+      "passwordHash": "b2a1f4fd0a460606b34c8913e2981dac8d2e283d778aba586c416ee2629bfa54"
+    }
+  ]
+}
